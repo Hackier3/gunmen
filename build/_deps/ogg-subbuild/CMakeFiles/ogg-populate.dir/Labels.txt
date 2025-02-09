@@ -1,0 +1,14 @@
+# Target labels
+ ogg-populate
+# Source files and their labels
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/d15c4d48e656f164e66b9a015acee126/ogg-populate.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/3b485ed5368f8f403183366e885a334e/ogg-populate-complete.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/f7044a04b392a49247132a27229d53bc/ogg-populate-build.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/f7044a04b392a49247132a27229d53bc/ogg-populate-configure.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/f7044a04b392a49247132a27229d53bc/ogg-populate-download.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/f7044a04b392a49247132a27229d53bc/ogg-populate-install.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/f7044a04b392a49247132a27229d53bc/ogg-populate-mkdir.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/f7044a04b392a49247132a27229d53bc/ogg-populate-patch.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/f7044a04b392a49247132a27229d53bc/ogg-populate-test.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/ogg-subbuild/CMakeFiles/f7044a04b392a49247132a27229d53bc/ogg-populate-update.rule

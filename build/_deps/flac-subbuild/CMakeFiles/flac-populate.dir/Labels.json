@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/flac-populate"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/0ac583cf218908c5c9b82964476a3ea2/flac-populate.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/318c7607a91072c3717bf6061adc5ebc/flac-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/1d12c3b1b346ef6376c830658b9848b4/flac-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/1d12c3b1b346ef6376c830658b9848b4/flac-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/1d12c3b1b346ef6376c830658b9848b4/flac-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/1d12c3b1b346ef6376c830658b9848b4/flac-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/1d12c3b1b346ef6376c830658b9848b4/flac-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/1d12c3b1b346ef6376c830658b9848b4/flac-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/1d12c3b1b346ef6376c830658b9848b4/flac-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/flac-subbuild/CMakeFiles/1d12c3b1b346ef6376c830658b9848b4/flac-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"flac-populate"
+		],
+		"name" : "flac-populate"
+	}
+}

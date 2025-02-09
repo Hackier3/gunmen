@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-src\lib\vorbisenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-src\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-src\win32\vorbisenc.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1B051862-FF75-3250-B227-C780DA3A8495}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

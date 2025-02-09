@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\f7044a04b392a49247132a27229d53bc\ogg-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\f7044a04b392a49247132a27229d53bc\ogg-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\f7044a04b392a49247132a27229d53bc\ogg-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\f7044a04b392a49247132a27229d53bc\ogg-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\f7044a04b392a49247132a27229d53bc\ogg-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\f7044a04b392a49247132a27229d53bc\ogg-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\f7044a04b392a49247132a27229d53bc\ogg-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\f7044a04b392a49247132a27229d53bc\ogg-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\3b485ed5368f8f403183366e885a334e\ogg-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\d15c4d48e656f164e66b9a015acee126\ogg-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\filip\source\repos\gunmen\build\_deps\ogg-subbuild\CMakeFiles\ogg-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{07C5D451-DC85-3D1A-9DAA-845BDE8A85BC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

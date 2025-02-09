@@ -1,0 +1,14 @@
+# Target labels
+ vorbis-populate
+# Source files and their labels
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/08df1c3f229c3a2f393f4958a889d9b3/vorbis-populate.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/5f1fd2aefce684ab3b0dfa1641938e35/vorbis-populate-complete.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-build.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-configure.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-download.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-install.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-mkdir.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-patch.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-test.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-update.rule

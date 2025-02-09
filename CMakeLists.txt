@@ -1,21 +1,17 @@
-﻿# CMakeList.txt: projekt CMake dla elementu gunmen, dołącz źródło i zdefiniuj
-# tutaj logikę specyficzną dla projektu.
-#
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required(VERSION 3.28)
+project(CMakeSFMLProject LANGUAGES CXX)
 
-# Włącz przeładowywanie kodu XAML na gorąco dla kompilatorów MSVC, jeśli jest to obsługiwane.
-if (POLICY CMP0141)
-  cmake_policy(SET CMP0141 NEW)
-  set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
-endif()
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-project ("gunmen")
+include(FetchContent)
+FetchContent_Declare(SFML
+    GIT_REPOSITORY https://github.com/SFML/SFML.git
+    GIT_TAG 3.0.0
+    GIT_SHALLOW ON
+    EXCLUDE_FROM_ALL
+    SYSTEM)
+FetchContent_MakeAvailable(SFML)
 
-# Dodaj źródło do pliku wykonywalnego tego projektu.
-add_executable (gunmen "gunmen.cpp" "gunmen.h")
-
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET gunmen PROPERTY CXX_STANDARD 20)
-endif()
-
-# TODO: Dodaj testy i zainstaluj elementy docelowe w razie potrzeby.
+add_executable(main src/main.cpp)
+target_compile_features(main PRIVATE cxx_std_17)
+target_link_libraries(main PRIVATE SFML::Graphics)

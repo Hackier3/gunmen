@@ -1,0 +1,14 @@
+# Target labels
+ freetype-populate
+# Source files and their labels
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/f523a34bd3af80e28f2b76569dad3d54/freetype-populate.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/fa9723359b707e80cc2c7f51d1d10a34/freetype-populate-complete.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/511cbd77ab5c22a7096dfc73436fa12b/freetype-populate-build.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/511cbd77ab5c22a7096dfc73436fa12b/freetype-populate-configure.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/511cbd77ab5c22a7096dfc73436fa12b/freetype-populate-download.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/511cbd77ab5c22a7096dfc73436fa12b/freetype-populate-install.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/511cbd77ab5c22a7096dfc73436fa12b/freetype-populate-mkdir.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/511cbd77ab5c22a7096dfc73436fa12b/freetype-populate-patch.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/511cbd77ab5c22a7096dfc73436fa12b/freetype-populate-test.rule
+C:/Users/filip/source/repos/gunmen/build/_deps/freetype-subbuild/CMakeFiles/511cbd77ab5c22a7096dfc73436fa12b/freetype-populate-update.rule

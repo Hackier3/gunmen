@@ -1,0 +1,154 @@
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1B334D040DF10037934F684C946B9FD6\VORBIS-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1B334D040DF10037934F684C946B9FD6\VORBIS-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\filip\source\repos\gunmen\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1B334D040DF10037934F684C946B9FD6\VORBIS-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1B334D040DF10037934F684C946B9FD6\VORBIS-POPULATE-PATCH.RULE
+setlocal
+cd C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DVORBIS_DIR=C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-src -P C:/Users/filip/source/repos/gunmen/build/_deps/sfml-src/tools/vorbis/PatchVorbis.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1B334D040DF10037934F684C946B9FD6\VORBIS-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1B334D040DF10037934F684C946B9FD6\VORBIS-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1B334D040DF10037934F684C946B9FD6\VORBIS-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1B334D040DF10037934F684C946B9FD6\VORBIS-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\filip\source\repos\gunmen\build\_deps\vorbis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\5F1FD2AEFCE684AB3B0DFA1641938E35\VORBIS-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/Debug/vorbis-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\08DF1C3F229C3A2F393F4958A889D9B3\VORBIS-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild -BC:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild --check-stamp-file C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\08DF1C3F229C3A2F393F4958A889D9B3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild -BC:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/vorbis-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

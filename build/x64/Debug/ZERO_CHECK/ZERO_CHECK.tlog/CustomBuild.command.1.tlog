@@ -1,0 +1,10 @@
+^C:\USERS\FILIP\SOURCE\REPOS\GUNMEN\BUILD\CMAKEFILES\D878285E7BBD42E0F18004F9C12197BE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/filip/source/repos/gunmen -BC:/Users/filip/source/repos/gunmen/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/filip/source/repos/gunmen/build/CMakeSFMLProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

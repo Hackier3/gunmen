@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/08df1c3f229c3a2f393f4958a889d9b3/vorbis-populate.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/5f1fd2aefce684ab3b0dfa1641938e35/vorbis-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/filip/source/repos/gunmen/build/_deps/vorbis-subbuild/CMakeFiles/1b334d040df10037934f684c946b9fd6/vorbis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vorbis-populate"
+		],
+		"name" : "vorbis-populate"
+	}
+}
