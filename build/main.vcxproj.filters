@@ -4,6 +4,12 @@
     <ClCompile Include="C:\Users\filip\source\repos\gunmen\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\filip\source\repos\gunmen\src\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\filip\source\repos\gunmen\src\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\filip\source\repos\gunmen\CMakeLists.txt" />

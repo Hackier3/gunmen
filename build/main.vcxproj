@@ -337,6 +337,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\filip\source\repos\gunmen\src\main.cpp" />
+    <ClCompile Include="C:\Users\filip\source\repos\gunmen\src\Player.cpp" />
+    <ClCompile Include="C:\Users\filip\source\repos\gunmen\src\Animation.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
