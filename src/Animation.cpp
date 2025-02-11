@@ -1,4 +1,4 @@
-#include "../hdr/Animation.h"
+﻿#include "../hdr/Animation.h"
 
 Animation::Animation(sf::Texture* texture, sf::Vector2u imageCount, float switchTime){
 	this->imageCount = imageCount;
@@ -14,7 +14,7 @@ Animation::Animation(sf::Texture* texture, sf::Vector2u imageCount, float switch
 Animation::~Animation(){
 }
 
-void Animation::Update(int row, float deltaTime, bool faceRight){
+void Animation::Update(int row, float deltaTime, bool faceRight, bool faceUp){
 	currentImage.y = row;
 	totalTime += deltaTime;
 
@@ -27,14 +27,18 @@ void Animation::Update(int row, float deltaTime, bool faceRight){
 		}
 	}
 	
-	uvRect.position.x = currentImage.y * uvRect.size.y;
+	uvRect.position.y = currentImage.y * uvRect.size.y;
 
 	if (faceRight){
-		uvRect.position.x = currentImage.x * uvRect.size.x;
-		uvRect.size.x = abs(uvRect.size.x);
-	}
-	else {
 		uvRect.position.x = (currentImage.x + 1) * abs(uvRect.size.x);
 		uvRect.size.x = -abs(uvRect.size.x);
 	}
+	else { 	// odbicie lustrzane postaci
+		uvRect.position.x = currentImage.x * uvRect.size.x;
+		uvRect.size.x = abs(uvRect.size.x);
+	}
+}
+
+void Animation::setCurrentImageColumn(unsigned int xSetter) {
+	currentImage.x = xSetter;
 }
