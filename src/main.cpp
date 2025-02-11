@@ -7,7 +7,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "My window", sf::Style::Close);
     sf::Texture playerTexture("../../../resources/graphics/BODY_skeleton.png");
 
-    Player player(&playerTexture, sf::Vector2u(9, 4), 0.1f, 100.0f);
+    Player player(&playerTexture, sf::Vector2u(9, 4), 0.1f, 150.0f);
 
     float deltaTime = 0.0f;
     sf::Clock clock;

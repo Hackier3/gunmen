@@ -40,8 +40,23 @@ void Player::Update(float deltaTime) {
 		animation.Update(row, deltaTime, faceRight, false);
 	}
 	else {
-		animation.setCurrentImageColumn(0); 
+		static float timeSinceLastChange = 0.0f;
+		float changeInterval = 0.55f; // Czas w sekundach między zmianami klatek
+		timeSinceLastChange += deltaTime;
+			
+		if (timeSinceLastChange >= changeInterval) {
+			if (animation.getCurrentImageColumn() != animation.getImageCountColumn() - 1) {
+				animation.setCurrentImageColumn(animation.getImageCountColumn() - 1);
+			}
+			else {
+				animation.setCurrentImageColumn(0);
+			}
+
+			timeSinceLastChange = 0.0f; // Resetowanie czasu po zmianie klatki
+			animation.Update(row, 0, faceRight, false);
+		}
 	}
+
 
 	body.setTextureRect(animation.uvRect);
 	body.move(movement);

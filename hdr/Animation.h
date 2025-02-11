@@ -8,12 +8,14 @@ public:
 
 	void Update(int row, float deltaTime, bool faceRight, bool faceUp);
 	void setCurrentImageColumn(unsigned int xSetter);
+	unsigned int getCurrentImageColumn();
+	unsigned int getImageCountColumn();
 public:
 	sf::IntRect uvRect; // wyciety prostokat tekstury
 
 private:
 	sf::Vector2u imageCount; // przechowuje liczbe klatek w pionie i poziome dla uvRect
-	sf::Vector2u currentImage; // aktualna klatka w jednostce z imageCount
+	sf::Vector2u currentImage; // aktualna klatka z imageCount
 
 	float totalTime;
 	float switchTime;

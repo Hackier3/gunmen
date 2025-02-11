@@ -42,3 +42,11 @@ void Animation::Update(int row, float deltaTime, bool faceRight, bool faceUp){
 void Animation::setCurrentImageColumn(unsigned int xSetter) {
 	currentImage.x = xSetter;
 }
+
+unsigned int Animation::getCurrentImageColumn() {
+	return currentImage.x;
+}
+
+unsigned int Animation::getImageCountColumn() {
+	return imageCount.x;
+}
